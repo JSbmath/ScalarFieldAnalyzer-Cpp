@@ -15,14 +15,23 @@ The application combines two main functionalities:
 1.  **Iso-contour Extraction:** Computes and lists the line segments that form the iso-contours for a specified isovalue, using the **Marching Squares** algorithm.
 2.  **Critical Point Detection:** Analyzes the dataset to find and list all local minima, local maxima, and saddle points.
 
+## 2. About the Data
+
+The application processes a 2D scalar field sampled on a 100x100 grid (`2d_scalar_field.csv`).
+To better understand the topology of the function being analyzed, here is a **3D visualization generated with ParaView** of the input dataset.
+
+![ParaView Visualization of Input Data](paraview-visualization.png)
+*Figure 1: 3D Surface visualization of the input scalar field (Ground Truth). The C++ application analyzes slices (iso-contours) and critical points of this structure.*
+
 ### Screenshots
+
 | Iso-contour Extraction | Critical Point Detection |
 |:---:|:---:|
 | ![Iso-contours](screenshot-01-isocontour-result.png) | ![Critical Points](screenshot-02-critical-points-result.png) |
 
 ---
 
-## 2. Getting Started
+## 3. Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -40,7 +49,7 @@ Since this repository contains the source code, you need to compile it first.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/TU_USUARIO/ScalarFieldAnalyzer-Cpp.git](https://github.com/TU_USUARIO/ScalarFieldAnalyzer-Cpp.git)
+    git clone [https://github.com/YOUR_USERNAME/ScalarFieldAnalyzer-Cpp.git](https://github.com/YOUR_USERNAME/ScalarFieldAnalyzer-Cpp.git)
     cd ScalarFieldAnalyzer-Cpp
     ```
 
@@ -67,7 +76,7 @@ Since this repository contains the source code, you need to compile it first.
 
 ---
 
-## 3. Usage
+## 4. Usage
 
 1.  Launch the application.
 2.  Click the **"Browse..."** button to select the provided sample file: `2d_scalar_field.csv` (located in the root of the repository).
