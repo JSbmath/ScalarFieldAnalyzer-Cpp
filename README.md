@@ -49,7 +49,7 @@ Since this repository contains the source code, you need to compile it first.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/ScalarFieldAnalyzer-Cpp.git](https://github.com/YOUR_USERNAME/ScalarFieldAnalyzer-Cpp.git)
+    git clone https://github.com/JSbmath/ScalarFieldAnalyzer-Cpp.git
     cd ScalarFieldAnalyzer-Cpp
     ```
 
